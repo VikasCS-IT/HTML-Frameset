@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <title>Online Registration Form</title>
+    <meta name="auther" content="VIKAS">
+    <meta name="description" content="Now you can fill online registratrion form">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding: 20px;
+            font-family: arial;
+            font-size: 1.2em;
+            background-color: rgba(55, 172, 222, 0.362);
+            color: black;
+        }
+
+        h2 {
+            text-shadow: 5px 5px 5px rgb(0, 68, 255);
+        }
+
+        .star {
+            color: red;
+        }
+
+        legend {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend align="center">
+            <h2>Registration Form</h2>
+        </legend>
+        <b><u>Fields marked as <span class="star">*</span> are mandatory</u></b>
+        <form action="" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>(2). Father's Name:<span class="star">*</span>
+                    </td>
+                    <td><input type="text" name="fname" class="form-control" placeholder="Enter First Name"
+                            autocomplete="on" title="Father's correct name" required /><span class="star">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>(3). Gender:<span class="star">*</span>
+                    </td>
+                    <td><input type="radio" name="gender" class="form-control" title="You are male" required />Male
+                        <input type="radio" name="gender" class="form-control" title="You are female" required />Female
+                        <input type="radio" name="gender" class="form-control" title="You are female" required />Othe
+                    </td>
+                </tr>
+                <tr>
+                    <td>(4). Date Of Birth (DOB):<span class="star">*</span>
+                    </td>
+                    <td><input type="date" class="form-control" autocomplete="on"
+                            title="Please enter your date of birth" required /></td>
+                </tr>
+                <tr>
+                    <td>(5). Permanent Address:<span class="star">*</span>
+                    </td>
+                    <td><textarea class="form-control" cols="60" rows="5" placeholder="Enter your Permanent address"
+                            autocomplete="off" title="Please enter your full address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>(6). State:<span class="star">*</span>
+                    </td>
+                    <td><select class="form-control" title="Select your state">
+                            <option>Select</option>
+                            <option>UTTAR PRADESH</option>
+                            <option>MADHYA PRADESH</option>
+                            <option>UTTARAKHAND</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>(7). City:<span class="star">*</span>
+                    </td>
+                    <td><select class="form-control" title="Select your city">
+                            <option>Select</option>
+                            <option>VARANASI</option>
+                            <option>JAUNPUR</option>
+                            <option>LUCKNOW</option>
+                            <option>BIJNOR</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>(8). Pincode:<span class="star">*</span>
+                    </td>
+                    <td><input type="text" class="form-control" placeholder="Enter 6 digit number" maxlength="6"
+                            title="Enter your pincode" required /></td>
+                </tr>
+                <tr>
+                    <td>(9). Mobile Number (Alert will be sent OTP on this mobile number):<span class="star">*</span>
+                    </td>
+                    <td>
+                        <select class="form-control" title="Select your country code">
+                            <option>Select</option>
+                            <option title="India">+91</option>
+                            <option title="Pakistan">+92</option>
+                            <option title="United State (Amerika)">+1</option>
+                        </select>
+                        <input type="text" class="form-control" maxlength="10" placeholder="Enter your 10 digit number"
+                            title="Enter open mobile number" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>(10).E-mail ID:<span class="star">*</span>
+                    </td>
+                    <td>
+                        <input type="email" class="form-control" placeholder="Enter correct E-mail ID"
+                            title="Enter open Email ID" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>(11). Passward (Passward must a NUMBER, CHARECTOR, SPECIAL SYMBOL):<span class="star">*</span>
+                    </td>
+                    <td><input type="passward" class="form-control" placeholder="Enter minimum 8 charector"
+                            title="Choose strong passward" required /></td>
+                </tr>
+                <tr>
+                    <td>(12). Sports:</td>
+                    <td><input class="form-control" type="checkbox">HOCKY
+                        <input class="form-control" type="checkbox">CRICKET
+                        <input class="form-control" type="checkbox">FOOTBALL
+                        <input class="form-control" type="checkbox">ROCKET
+                    </td>
+                </tr>
+                <tr>
+                    <td>(13). Year of Education:<span class="star">*</span>
+                    </td>
+                    <td><input class="form-control" type="radio" title="First Year">1<sup>st</sup> Year
+                        <input class="form-control" type="radio" title="Second Year">2<sup>st</sup> Year
+                        <input class="form-control" type="radio" title="Third Year">3<sup>st</sup> Year
+                    </td>
+                </tr>
+                <tr>
+                    <td>(14). Upload Your Profile Photo:<span class="star">*</span>
+                    </td>
+                    <td><input type="file" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td>(15). Message:</td>
+                    <td><textarea cols="60" class="form-control" rows="5" placeholder="Write something"
+                            title="Something about you"></textarea></td>
+                </tr>
+            </table><br />
+            <center>
+                <input type="reset" class="form-control" value="RESET" title="Clear All Fields">
+                <input type="submit" class="form-control" value="SUBMIT" title="Submit And Payment">
+            </center>
+        </form>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Time Table</title>
+    <style type="text/css">
+        body {
+            background: -webkit-linear-gradient(red, white, pink, blue);
+            padding: 5px;
+            align-content: center;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .table {
+            height: auto;
+            width: auto;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            empty-cells: hide;
+            margin-bottom: 20px;
+            color: rgb(0, 0, 0);
+            border-spacing: 5px;
+        }
+
+        table {
+            width: 90%;
+            height: 90%;
+        }
+
+        tr {
+            border-color: rgb(0, 0, 255);
+        }
+
+        td {
+            border-radius: 20px 0px 20px 0px;
+        }
+
+        th {
+            border: 4px dotted rgb(0, 1, 1);
+            border-radius: 40%;
+        }
+
+        caption {
+            background-color: rgb(255, 255, 255);
+            border: 10px double rgb(242, 79, 79);
+            font-size: 30px;
+            border-radius: 50%;
+            color: blue
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center"
+        style="border: 2; background:-webkit-gradient(red,white,pink,blue); border-radius: 20px 0px 20px 0px;">
+        <tr>
+            <td>
+                <table border="2" align="center" class="table" cellspacing="0">
+                    <caption><b>Rajkiya Engineering College, Bijnor</b></caption><br />
+                    <thead>
+                        <tr>
+                            <th colspan="9">COURSE: B.TECH BRANCH: IT YEAR: II SEMESTER: IV ROOM No: 133</th>
+                        </tr>
+                        <tr style="background-color: white;">
+                            <th>DAY</th>
+                            <th>09:00-10:00</th>
+                            <th>10:00-11:00</th>
+                            <th>11:00-12:00</th>
+                            <th>12:00-01:00</th>
+                            <th>01:00-02:00</th>
+                            <th>02:00-03:00</th>
+                            <th>03:00-04:00</th>
+                            <th>04:00-05:00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>L<br />
+                                KIT401<br />
+                                KR
+                            </td>
+                            <td>L<br />
+                                KOE048<br />
+                                PRK
+                            </td>
+                            <td>L<br />
+                                KCS402<br />
+                                SG
+                            </td>
+                            <td>T(G1)<br />
+                                KIT401<br />
+                                KR
+                            </td>
+                            <td bgcolor="white" rowspan="6">LUNCH BREAK</td>
+                            <td>LIBRARY</td>
+                            <td colspan="2">P(G1) KCS451<br /> P(G2) KIT451</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>L<br />
+                                KCS401<br />
+                                VKJ
+                            </td>
+                            <td>L<br />
+                                KOE048<br />
+                                PRK
+                            </td>
+                            <td>T(G1)<br />
+                                KCS402<br />
+                                SG
+                            </td>
+                            <td>LIBRARY</td>
+                            <td>T(G1)<br />
+                                KAS401<br />
+                                AT
+                            </td>
+                            <td>LIBRARY</td>
+                            <td>LIBRARY</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>L<br />
+                                KOE048<br />
+                                PRK
+                            </td>
+                            <td>L<br />
+                                KCS402<br />
+                                SG
+                            </td>
+                            <td>L<br />
+                                KCS401<br />
+                                VKJ
+                            </td>
+                            <td>T(G2)<br />
+                                KIT401<br />
+                                KR
+                            </td>
+                            <td>T(G2)<br />
+                                KCS402<br />
+                                SG
+                            </td>
+                            <td colspan="2">P(G2) KCS451<br /> P(G1) KIT451
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>L<br />
+                                KAS401<br />
+                                AT
+                            </td>
+                            <td>T(G1)<br />
+                                KOE048<br />
+                                PRK
+                            </td>
+                            <td>L<br />
+                                KNC401<br />
+                                IB
+                            </td>
+                            <td>L<br />
+                                KIT401<br />
+                                KR
+                            </td>
+                            <td>T(G2)<br />
+                                KAS401<br />
+                                AT
+                            </td>
+                            <td colspan="2">P(G1) KCS453</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>T(G2)<br />
+                                KOE048<br />
+                                PRK
+                            </td>
+                            <td>LIBRARY</td>
+                            <td>L<br />
+                                KAS401<br />
+                                AT
+                            </td>
+                            <td>LIBRARY</td>
+                            <td>L<br />
+                                KCS401<br />
+                                VKJ
+                            </td>
+                            <td colspan="2">P(G2) KCS453</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>L<br />
+                                KCS402<br />
+                                SG
+                            </td>
+                            <td>L<br />
+                                KIT401<br />
+                                KR
+                            </td>
+                            <td>L<br />
+                                KNC401<br />
+                                IB
+                            </td>
+                            <td>LIBRARY</td>
+                            <td>MENTOR-MENTEE Meeting</td>
+                            <td colspan="2">REMEDIAL CLASSES</td>
+                        </tr>
+                        <tr style="background-color: white;">
+                            <th>Subject Code
+            </td>
+            <th colspan="2">Subject Name</td>
+            <th colspan="2">Faculty Name & Abbr.</td>
+            <th colspan="2">Lab Name & Code</td>
+            <th colspan="2">Faculty Name & Abbr.</td>
+        </tr>
+        <tr>
+            <td>KOE048</td>
+            <td colspan="2">Electronics Engineering</td>
+            <td colspan="2">MR PARVESH KUMAR</td>
+            <td colspan="2">KCS451 Operating Systems Lab</td>
+            <td colspan="2">MR VIVEK JAISWAL (VKJ)</td>
+        </tr>
+        <tr>
+            <td>KAS401</td>
+            <td colspan="2">Technical Communication</td>
+            <td colspan="2">DR ASHU TOMAR (AT)</td>
+            <td colspan="2">KCS453 Python Language Programming Lab</td>
+            <td colspan="2">MR SUDHIR GOSWAMI (SG)</td>
+        </tr>
+        <tr>
+            <td>KCS401</td>
+            <td colspan="2">Operating Systems</td>
+            <td colspan="2">MR VIVEK JAISWAL (VKJ)</td>
+            <td colspan="2">KIT451 Web Designing Lab</td>
+            <td colspan="2">MS KHUSHBOO ROY (KR)</td>
+        </tr>
+        <tr>
+            <td>KCS402</td>
+            <td colspan="2">Theory of Automata and Formal Languages</td>
+            <td colspan="2">MR SUDHIR GOSWAMI (SG)</td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>KIT401 </td>
+            <td colspan="2">Web Designing</td>
+            <td colspan="2">MS KHUSHBOO ROY (KR)</td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>KNC401</td>
+            <td colspan="2">Computer System Security</td>
+            <td colspan="2">DR ISHAN BHARDWAJ (IB)</td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        </tbody>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
